@@ -6,7 +6,7 @@ public class Digits {
 	public Digits (int num) {
 		if (num==0) digitList.add(0);
 		while (num>0) {
-			digitList.insert(0,num%10);
+			digitList.add(0,num%10);
 			num=num/10;
 		}
 	}
